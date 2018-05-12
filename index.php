@@ -45,7 +45,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php while ($row=mysqli_fetch_array($result)){?>
+            <?php while ($row=mysqli_fetch_array($results)){?>
             <tr>
                 <td><?php echo $row['first'];?></td>
                 <td><?php echo $row['last'];?></td>
@@ -55,7 +55,7 @@
                 <a href="#" class="btn btn-danger" role="button">Delete numbere</a>
                 </td>
             </tr>
-            <?php}?>
+            <?php } ?>
             </tbody>
         </table>
     </div>
